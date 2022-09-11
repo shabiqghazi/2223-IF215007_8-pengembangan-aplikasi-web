@@ -1,1 +1,5 @@
-
+- Nama : Shabiq Ghazi Arkaan
+- NIM : 1207050118
+- Mata Kuliah/Kelas : 
+  - Pengembangan Aplikasi Web/F 
+  - Praktikum Pengembangan Aplikasi Web/F

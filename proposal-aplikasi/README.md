@@ -33,7 +33,8 @@
 ###  User
 	{
 		id: integer,
-		username: string,
+		nama: string,
+		nim: string,
 		password: string,
 		isVerified: boolean,
 		title: string
@@ -122,3 +123,4 @@
 		}
 	}
 ## UX Wireframe
+![ux-wireframe](https://user-images.githubusercontent.com/76445601/189538093-e71cdee2-b3d6-4834-9c89-d72489e633ad.jpeg)

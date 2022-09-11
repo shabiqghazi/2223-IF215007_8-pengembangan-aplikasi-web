@@ -1,10 +1,10 @@
 # Proposal Aplikasi Berbasis Web
 
 ## Author
-Nama : Shabiq Ghazi Arkaan
-NIM : 1207050118
-Mata Kuliah : Pengembangan Aplikasi Web
-Kelas : F
+- Nama : Shabiq Ghazi Arkaan
+- NIM : 1207050118
+- Mata Kuliah : Pengembangan Aplikasi Web
+- Kelas : F
 
 ## Permasalahan
 - Banyaknya mahasiswa yang lupa dengan tugas yang akan datang

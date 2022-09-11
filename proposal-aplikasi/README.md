@@ -1,19 +1,19 @@
 # Proposal Aplikasi Berbasis Web
 
-## Author
+## :office_worker: Author
 - Nama : Shabiq Ghazi Arkaan
 - NIM : 1207050118
 - Mata Kuliah : Pengembangan Aplikasi Web
 - Kelas : F
 
-## Permasalahan
+## :warning: Permasalahan
 - Banyaknya mahasiswa yang lupa dengan tugas yang akan datang
 - Keterbatasan whatsapp untuk <i>managing</i> setiap tugas kelompok
 - Tidak adanya ruang diskusi yang lebih terkhusus kepada permasalahan akademik
 - Kosma kesulitan memonitor permasalahan setiap mahasiswa
 - Tidak adanya ruang yang nyaman bagi kosma ataupun mahasiswa lain untuk menyampaikan pengumuman karena terlalu banyak hal random yang dibahas di grup whatsapp
 
-## Rancangan Solusi
+## :unlock: Rancangan Solusi
 - Membuat aplikasi yang mendukung kegiatan akademik mahasiswa kelas F
 - Membuat fitur kalender tugas
 - Membuat ruang kerja kelompok yang memudahkan setiap kelompok
@@ -21,7 +21,7 @@
 - Membuat fitur yang membantu menyampaikan masalah mahasiswa
 - Membuat fitur pengumuman dari siapa saja untuk seluruh mahasiswa di kelas
 
-## Use Case
+## :gear: Use Case
 - Mahasiswa melakukan registrasi dengan token yang disediakan oleh kosma
 - Mahasiswa bisa menambahkan tugas dan melihat tugas yang akan datang
 - Mahasiswa bisa melakukan manajemen kerja kelompok yang memiliki fitur chat, file upload, notes, schedule management, role management
@@ -29,11 +29,12 @@
 - Mahasiswa bisa melaporkan permasalahan akademik kepada kosma, kemudian kosma menanggapi
 - Mahasiswa bisa membuat pengumuman baru
 
-## Struktur Data
+## :file_folder: Struktur Data
 ###  User
 	{
 		id: integer,
-		username: string,
+		nama: string,
+		nim: string,
 		password: string,
 		isVerified: boolean,
 		title: string
@@ -121,4 +122,5 @@
 			responseMessage: string
 		}
 	}
-## UX Wireframe
+## :paperclips: UX Wireframe
+![ux-wireframe](https://user-images.githubusercontent.com/76445601/189538093-e71cdee2-b3d6-4834-9c89-d72489e633ad.jpeg)

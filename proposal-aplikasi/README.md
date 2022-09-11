@@ -116,7 +116,7 @@
 		urgentionIndex: {
 			index: integer,
 			urgention: string
-		}
+		},
 		KosmaResponse: {
 			isResponsed: boolean,
 			responseMessage: string

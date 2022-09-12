@@ -6,15 +6,371 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/css/style.css" />
     <title>Bstation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav id="header-nav" class="flex flex-row">
+        <div id="header-nav-kiri" class="flex flex-row">
+          <i class="fa-solid fa-bars" id="sidebar-toggle"></i>
+          <h1 id="nav-brand">Bstation</h1>
+        </div>
+        <div id="header-nav-tengah" class="flex flex-row">
+          <div id="search-box">
+            <input type="text" placeholder="Cari" id="search-input" />
+            <div id="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+        </div>
+        <div id="header-nav-kanan" class="flex flex-row">
+          <a href="#" class="header-nav-link" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a href="#" class="header-nav-link">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+          </a>
+          <a href="#" class="header-nav-link">
+            <i class="fa-regular fa-clock"></i>
+          </a>
+          <a href="#" class="header-nav-link" id="bookmark">
+            <i class="fa-regular fa-bookmark"></i>
+          </a>
+          <a href="#" class="header-nav-profile" id="user-photo">
+            <img src="dist/img/profile/user1.jpg" alt="" />
+          </a>
+        </div>
+      </nav>
+    </header>
     <div id="content">
       <aside>
-        <nav></nav>
-        <footer></footer>
+        <nav class="flex flex-column">
+          <a href="#" class="sidebar-nav-link nav-active"
+            ><i class="fa-solid fa-fw fa-house nav-link-icon"></i>Halaman
+            utama</a
+          >
+          <a href="#" class="sidebar-nav-link"
+            ><i class="fa-solid fa-fw fa-tv nav-link-icon"></i>Anime</a
+          >
+          <a href="#" class="sidebar-nav-link"
+            ><i class="fa-brands fa-fw fa-hotjar nav-link-icon"></i>Populer</a
+          >
+          <a href="#" class="sidebar-nav-link"
+            ><i class="fa-solid fa-fw fa-filter nav-link-icon"></i>Kategori</a
+          >
+        </nav>
+        <footer>
+          <hr id="footer-divider" />
+          <a href="#" class="footer-link">Tentang kami</a>
+          <a href="#" class="footer-link">Hubungi kami</a>
+          <a href="#" class="footer-link">Dapatkan aplikasi</a>
+          <a href="#" class="footer-link">Syarat Layanan</a>
+          <a href="#" class="footer-link">Kebijakan privasi</a>
+          <a href="#" class="footer-link">Keluhan pelanggaran</a>
+          <p class="copyright">&copy 2022 Bilibili</p>
+        </footer>
       </aside>
-      <main></main>
+      <main>
+        <div id="populer" class="card-section flex flex-column">
+          <div class="section-title flex flex-row">
+            <h3>Populer</h3>
+            <a href="#" class="section-more">
+              <i class="fa-solid fa-fw fa-chevron-right section-more-icon"></i>
+            </a>
+          </div>
+          <div class="videos-container">
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card lg flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card lg flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card lg flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card lg flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card lg flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card lg flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="anime" class="card-section flex flex-column">
+          <div class="section-title flex flex-row" id="anime-section-title">
+            <h3>Anime</h3>
+            <div id="timeline-slider">
+              <div id="anime-timeline">
+                <a href="#" class="anime-timeline-link active">Populer</a>
+                <a href="#" class="anime-timeline-link">Rab</a>
+                <a href="#" class="anime-timeline-link">Kam</a>
+                <a href="#" class="anime-timeline-link">Jum</a>
+                <a href="#" class="anime-timeline-link">Sab</a>
+                <a href="#" class="anime-timeline-link">Min</a>
+                <a href="#" class="anime-timeline-link">Sen</a>
+                <a href="#" class="anime-timeline-link">Sel</a>
+              </div>
+            </div>
+            <a href="#" class="section-more">
+              <i class="fa-solid fa-fw fa-chevron-right section-more-icon"></i>
+            </a>
+          </div>
+          <div class="videos-container">
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="anime-note">Perbarui ke E376</p>
+              </div>
+              <div class="flex flex-column video-card-desc">
+                <h4 class="video-card-title">Naruto Shippuden</h4>
+                <p class="video-card-profile">1.1 M Putar - Action</p>
+              </div>
+            </div>
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="anime-note">Perbarui ke E376</p>
+              </div>
+              <div class="flex flex-column video-card-desc">
+                <h4 class="video-card-title">Naruto Shippuden</h4>
+                <p class="video-card-profile">1.1 M Putar - Action</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="recommended" class="card-section flex flex-column">
+          <div class="section-title flex flex-row">
+            <h3>Direkomendasikan untukmu</h3>
+          </div>
+          <div class="videos-container">
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="anime-note">Perbarui ke E376</p>
+              </div>
+              <div class="flex flex-column video-card-desc">
+                <h4 class="video-card-title">Naruto Shippuden</h4>
+                <p class="video-card-profile">1.1 M Putar - Action</p>
+              </div>
+            </div>
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+            <div class="video-card flex flex-column">
+              <div class="video-cover">
+                <img src="dist/img/video1.jpg" alt="" />
+                <p class="video-duration">20:22</p>
+              </div>
+              <div class="video-desc flex flex-row">
+                <img
+                  src="dist/img/profile/user1.jpg"
+                  alt=""
+                  class="video-card-profile-pic"
+                />
+                <div class="flex flex-column video-card-desc">
+                  <h4 class="video-card-title">
+                    Naruto Shippuden - naruto kembali ke desa konoha setelah
+                    berlatih selama 2 tahun
+                  </h4>
+                  <p class="video-card-profile">ShabiqGhazi - 18.3K Ditonton</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
+    <a id="backToTop" href="#top" class="flex flex-column">
+      <i class="fa-solid fa-caret-up text-primary"></i>
+      <span class="text-primary">Atas</span>
+    </a>
   </body>
 </html>

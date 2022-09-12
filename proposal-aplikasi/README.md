@@ -1,4 +1,4 @@
-# Proposal Aplikasi Berbasis Web
+# Proposal Aplikasi Kelas Digital IF F
 
 ## :office_worker: Author
 - Nama : Shabiq Ghazi Arkaan

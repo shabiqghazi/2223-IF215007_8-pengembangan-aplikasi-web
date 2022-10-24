@@ -1,4 +1,4 @@
-# Menerapkan konsep flexbox dan responsive layout untuk meniru UI aplikasi web
+# Menerapkan konsep flexbox dan media query untuk meniru UI aplikasi web
 
 Website referensi: https://www.bilibili.tv/id
 

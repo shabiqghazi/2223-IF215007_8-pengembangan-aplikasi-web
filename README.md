@@ -62,3 +62,9 @@ cpanel infinityfree
 ## Web Service using Slim (6) (opt. Express)
 ![image](https://user-images.githubusercontent.com/76445601/210072120-fcfd3b93-ae34-46a9-aaa4-deef7769e75d.png)
 ## News Site using Wordpress (5)
+![image](https://user-images.githubusercontent.com/76445601/210074778-26b50c40-cae5-4aa1-bfc7-510c2d28ecda.png)
+
+# Sertifikasi
+Course Belajar Dasar Pemrograman Web Dicoding
+![image](https://user-images.githubusercontent.com/76445601/210074913-c562217e-f4dc-4bb2-98da-864c8b90a245.png)
+

@@ -27,6 +27,9 @@
 ## Nginx / Apache web server installation & operation (5)
 ![image](https://user-images.githubusercontent.com/76445601/210069408-58909329-309f-4329-9433-94335edb7e0b.png)
 ## Cpanel operation (4)
+cpanel infinityfree
+![image](https://user-images.githubusercontent.com/76445601/210072738-852d11f7-57ad-4f8d-ab22-626b5451767e.png)
+--
 ![image](https://user-images.githubusercontent.com/76445601/210069826-4b93eac2-11f4-41f6-b461-476f2b1d6251.png)
 ## Domain registration (1)
 ![image](https://user-images.githubusercontent.com/76445601/210069859-69e33df8-24eb-4f8e-9431-3e33fd186d24.png)
